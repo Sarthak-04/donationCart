@@ -68,14 +68,17 @@ p {
     border-left:10px solid transparent;
     border-right: 10px solid transparent;
     float:right;
-    border-top: 10px solid black;
+    border-top: 10px solid #363636;
+    margin-right: 45px;
 }
 
 #donation-left {
-    background-color: black;
+    background-color: #363636;
     color: #eee;
     font-size: 22px;
-    padding: 7px;
+    height: 80px;
+    border-radius: 10px;
+    padding-top: 25px;
 }
 
 .unit {
@@ -84,4 +87,9 @@ p {
     left: 26px;
     font-size: 25px;
     color: #999;
+}
+
+.error-message {
+    color: red;
+    display: none;
 }
