@@ -5,7 +5,7 @@ donationButton.onclick = function() {
 	var progressBar = $('.progress-bar'),
 	progressBarCurrentVal = progressBar.attr('aria-valueNow'),
 	inputValue = donationBox.value;
-	// only calculate if input vallue is a positive integer
+	// only calculate if input value is a positive integer
 	if(inputValue.match(/^[0-9]*[1-9][0-9]*$/)) {
 		// by 10 to convert to width percentage
 		progressBarCurrentVal = (+inputValue) + +progressBarCurrentVal;
