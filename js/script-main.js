@@ -50,6 +50,6 @@ document.getElementById('btn-two').onclick = function() {
 FB.ui({
 method: 'share',
 display: 'popup',
-href: 'https://sarthak-04.github.io',
+href: 'https://sarthak-04.github.io/donationCart/',
 quote: 'Yay, I donated!'
 }, function(response){})};
