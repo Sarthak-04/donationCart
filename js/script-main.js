@@ -1,7 +1,7 @@
 $(function () { 
 	$('progress').tooltip();
 });  
-	
+	//test
 	var donationBox = document.getElementById('donation-box'),
 	donationButton = document.getElementById('donation-btn');
 	donationButton.onclick = function() {
@@ -17,7 +17,7 @@ $(function () {
 		$('#donation-left').text("$" + amountRemaining + " still needed for this project")
 	}
 
-/*	window.fbAsyncInit = function() {
+	window.fbAsyncInit = function() {
     FB.init({
       appId      : '421240411555274',
       xfbml      : true,
@@ -31,7 +31,7 @@ $(function () {
      if (d.getElementById(id)) {return;}
      js = d.createElement(s);
      js.id = id;
-     js.src = "//connect.facebook.net/en_US/sdk.js";
+     js.src = "http://connect.facebook.net/en_US/sdk.js";
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
 
@@ -42,4 +42,4 @@ $(function () {
 	href: 'https://developers.facebook.com/docs/',
 	quote: 'Yay, I donated!'
 	}, function(response){})};
- */
+ 
