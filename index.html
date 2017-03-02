@@ -16,7 +16,13 @@
 		<div class="container">
 			<div class="row static-content">
 				<div class="col-md-5 col-md-offset-3 col-xs-12 block-one">
-					<div class="row progress" id="progress-tooltip" data-toggle="tooltip" title="$1000 still needed for this project">
+					<div class="row">
+					<div class="col-md-12 text-center" id="donation-left"> $1000 still needed for this project</div>
+					 </div>
+					<div class="row">
+					<div class="arrow-down"></div>
+					</div>
+					<div class="row progress test" data-toggle="tooltip" title="$1000 still needed for this project" data-position="top">
 				        <div class="progress-bar" role="progressbar"  aria-valuenow="0" aria-valuemin="10" aria-valuemax="1000" style="background-color: #df5a00;" >
 				        </div>
 			        </div><!-- Progress bar ends -->
@@ -73,6 +79,13 @@
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="js/jquery-3.1.1.min.js"></script>
 	<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+< <script>
+	/*** Handle jQuery plugin naming conflict between jQuery UI and Bootstrap ***/
+	// $.widget.bridge('uibutton', $.ui.button);
+	$.widget.bridge('uitooltip', $.ui.tooltip);
+	</script>	
+
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/script-main.js"></script> 
 	</body>
