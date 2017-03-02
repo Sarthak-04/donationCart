@@ -55,7 +55,7 @@ $(function () {
 	FB.ui({
 	method: 'share',
 	display: 'popup',
-	href: 'https://developers.facebook.com/docs/',
+	href: 'https://sarthak-04.github.io,
 	quote: 'Yay, I donated!'
 	}, function(response){})};
  
